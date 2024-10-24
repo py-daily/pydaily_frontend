@@ -44,7 +44,7 @@ const Services = () => {
             <div className='inter w-full py-[3rem] grid lg:grid-cols-3 sm:grid-cols-2 gap-8'>
                 {serviceContent.map((item, index) => (
                     <div key={index} onClick={() => handleCardClick(item.id)}>
-                        <ServiceCard 
+                        <ServiceCard
                             icon={activeCard === item.id ? item.img : item.clrImg}
                             title={item.title}
                             content={item.content}

@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 const WhatsayCard = () => {
   return (
-    <div className='robot w-[500px] p-6 bg-gray-200 hover:bg-app-primary-light hover:text-white'>
+    <div className='robot xs:w-[500px] w-[350px] p-6 bg-gray-200 hover:bg-app-primary-light hover:text-white'>
         <p className='text-[1.1rem]'>
             the project you guys are working on is amazing and finally i can easily manage my company
         </p>
-        <div className='pt-6 flex justify-between items-center gap-4'>
+        <div className='xs:pt-6 pt-3 flex justify-between items-center gap-4'>
             <div className='flex items-center gap-3'>
                 <Image 
                     src={profilImg}

@@ -36,8 +36,8 @@ export function Navbar() {
     }, [pathname]);
 
     return (
-        <div className="w-full bg-white text-black p-4">
-            <div className="maxContainer w-[80%] mx-auto flex justify-between items-center">
+        <div className="w-full  dark:bg-gray-900 bg-white text-black p-4">
+            <div className="maxContainer xl:w-[80%] w-[90%] mx-auto flex justify-between items-center">
                 <Link href="/" className="text-xl font-bold">
                     <Image 
                         src={logo}

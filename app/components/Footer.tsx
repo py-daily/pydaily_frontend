@@ -6,10 +6,10 @@ import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
 export function Footer() {
     return (
         <footer className="w-full py-[3rem] bg-white p-4 mt-8">
-            <section className="maxContainer w-[80%] mx-auto text-center">
-                <div className="w-full pb-12 flex justify-between items-center gap-6">
+            <section className="maxContainer xl:w-[80%] w-[90%] mx-auto text-center">
+                <div className="w-full pb-12 flex justify-between items-center sm:gap-6 gap-3 flex-wrap">
                     <div className='md:w-[90px] w-[80px] h-fit'>
-                        <Image 
+                        <Image
                             src={logo}
                             alt='Pydaily logo'
                             className='w-full h-full'
