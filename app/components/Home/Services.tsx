@@ -41,7 +41,7 @@ const Services = () => {
         <section className='maxContainer xl:w-[80%] w-[90%] mx-auto'>
             <h2 className='arima lg:py-3 lg:text-[2.3rem] text-[2rem] font-semibold lg:leading-[2rem]'>Our Services</h2>
             <p className='mont font-medium text-gray-500'>Save your time by entrusting your improvement and skillset  to us</p>
-            <div className='inter w-full py-[3rem] grid lg:grid-cols-3 grid-cols-2 gap-8'>
+            <div className='inter w-full py-[3rem] grid lg:grid-cols-3 sm:grid-cols-2 gap-8'>
                 {serviceContent.map((item, index) => (
                     <div key={index} onClick={() => handleCardClick(item.id)}>
                         <ServiceCard 

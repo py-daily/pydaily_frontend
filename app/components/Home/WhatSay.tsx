@@ -6,7 +6,7 @@ const WhatSay = () => {
     <div className='w-full py-[4rem] bg-app-primary'>
         <section className='maxContainer w-[80%] mx-auto'>
             <div className='w-full flex justify-between items-center gap-8'>
-                <h2 className='text-3xl text-white font-semibold'>What do <span className='text-app-primary-light'>they say</span> about you?</h2>
+                <h2 className='md:text-3xl text-2xl text-white font-semibold'>What do <span className='text-app-primary-light'>they say</span> about you?</h2>
                 <div className='flex justify-end items-center gap-4'>
                     <div className='p-2 rounded-full bg-gray-100 cursor-pointer'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">

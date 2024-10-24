@@ -8,14 +8,14 @@ export function Footer() {
         <footer className="w-full py-[3rem] bg-white p-4 mt-8">
             <section className="maxContainer w-[80%] mx-auto text-center">
                 <div className="w-full pb-12 flex justify-between items-center gap-6">
-                    <div className='w-[90px] h-fit'>
+                    <div className='md:w-[90px] w-[80px] h-fit'>
                         <Image 
                             src={logo}
                             alt='Pydaily logo'
                             className='w-full h-full'
                         />
                     </div>
-                    <div className='flex justify-center items-center lg:gap-6 gap-4 text-gray-600'>
+                    <div className='flex justify-center items-center lg:gap-6 Md:gap-4 gap-2 text-gray-600'>
                         <Link href="/">Home</Link>
                         <Link href="/about-us">About</Link>
                         <Link href="/contact">Contact</Link>
