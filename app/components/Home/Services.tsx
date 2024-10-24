@@ -34,14 +34,14 @@ const Services = () => {
     const [activeCard, setActiveCard] = useState<string | null>(null);
 
     const handleCardClick = (id: string) => {
-        setActiveCard(id); // Set the clicked card as active
+        setActiveCard(id); 
     };
   return (
-    <div className='w-full py-[3rem]'>
-        <section className='w-[80%] mx-auto'>
-            <h2 className='arima py-3 text-[2.3rem] font-semibold leading-[2rem]'>Our Services</h2>
+    <div className='w-full lg:py-[3rem] py-[2rem]'>
+        <section className='maxContainer xl:w-[80%] w-[90%] mx-auto'>
+            <h2 className='arima lg:py-3 lg:text-[2.3rem] text-[2rem] font-semibold lg:leading-[2rem]'>Our Services</h2>
             <p className='mont font-medium text-gray-500'>Save your time by entrusting your improvement and skillset  to us</p>
-            <div className='inter w-full py-[3rem] grid grid-cols-3 gap-8'>
+            <div className='inter w-full py-[3rem] grid lg:grid-cols-3 grid-cols-2 gap-8'>
                 {serviceContent.map((item, index) => (
                     <div key={index} onClick={() => handleCardClick(item.id)}>
                         <ServiceCard 

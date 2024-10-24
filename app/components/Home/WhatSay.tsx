@@ -4,7 +4,7 @@ import React from 'react'
 const WhatSay = () => {
   return (
     <div className='w-full py-[4rem] bg-app-primary'>
-        <section className='w-[80%] mx-auto'>
+        <section className='maxContainer w-[80%] mx-auto'>
             <div className='w-full flex justify-between items-center gap-8'>
                 <h2 className='text-3xl text-white font-semibold'>What do <span className='text-app-primary-light'>they say</span> about you?</h2>
                 <div className='flex justify-end items-center gap-4'>
@@ -23,7 +23,7 @@ const WhatSay = () => {
                 </div>
             </div>
             <div className='w-full overflow-auto'>
-                <div className='w-full pt-12 flex items-center gap-8 flex-nowrap'>
+                <div className='min-w-[1200px] w-full pt-12 flex items-center gap-8 flex-nowrap'>
                     <WhatsayCard />
                     <WhatsayCard />
                     <WhatsayCard />

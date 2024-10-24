@@ -7,9 +7,9 @@ import Button from '@/app/common/shared/Button';
 const Features = () => {
   return (
     <div className='w-full pt-[6rem] pb-[3rem]'>
-        <section className='w-[80%] mx-auto flex justify-between items-center gap-20'>
-            <div className='relative w-[45%] h-[550px] border'>
-                <div className='w-[90%] absolute left-0'>
+        <section className='maxContainer xl:w-[80%] w-[90%] mx-auto flex justify-between items-center xl:gap-20 gap-10'>
+            <div className='relative w-[45%] xl:h-[550px] h-[400px] border'>
+                <div className='w-[95%] absolute left-0'>
                     <Image 
                         src={featureImg}
                         alt='Feature Image'
@@ -24,10 +24,10 @@ const Features = () => {
                     />
                 </div>
             </div>
-            <div className='w-[45%]'>
-                <p className='text-[1.2rem] font-medium text-app-primary-light'>Know our features</p>
-                <h2 className='arima py-3 text-[2.3rem] font- '>Our Features</h2>
-                <p className='pb-6 text-[0.9rem] text-gray-500 leading-7'>
+            <div className='xl:w-[45%] flex-1'>
+                <p className='lg:text-[1.2rem] text-[1rem] font-medium text-app-primary-light'>Know our features</p>
+                <h2 className='arima lg:py-3 py-1 lg:text-[2.3rem] text-[2rem] font- '>Our Features</h2>
+                <p className='pb-6 text-[0.9rem] text-gray-500 lg:leading-7 leading-5'>
                     We offer daily tutorials in Python, DevOps, and Security, featuring hands-on coding challenges and real-world 
                     use cases. Whether you're a beginner or an experienced professional, we provide both free and premium content 
                     tailored to all skill levels, ensuring everyone can enhance their knowledge and skills in these critical areas.

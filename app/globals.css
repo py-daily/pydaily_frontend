@@ -16,6 +16,11 @@
   --background-end-rgb: 0, 0, 0;
 }
 
+.maxContainer {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
 .arima {
   font-family: "Arima", system-ui;
 }

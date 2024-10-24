@@ -11,7 +11,7 @@ export function Navbar() {
 
     return (
         <nav className="w-full bg-white text-black p-4">
-            <div className="w-[80%] mx-auto flex justify-between items-center">
+            <div className="maxContainer w-[80%] mx-auto flex justify-between items-center">
                 <Link href="/" className="text-xl font-bold">
                     <Image 
                         src={logo}

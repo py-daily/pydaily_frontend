@@ -13,7 +13,7 @@ type ServiceProps = {
 
 const ServiceCard = ({icon, title, content, className, iconClass, contentClass, titleClass}: ServiceProps) => {
   return (
-    <div className={`w-[300px] px-8 py-9 text-white rounded-md shadow-md ${className}`}>
+    <div className={`xl:w-[300px] lg:w-[270px] w-[300px] xl:px-8 lg:px-4 px-8 xl:py-9 lg:py-7 py-10 text-white rounded-md shadow-md ${className}`}>
         <Image 
             src={icon}
             alt={title}
